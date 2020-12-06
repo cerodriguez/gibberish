@@ -1,5 +1,5 @@
-from generators import word_generator
-from dictonaries import collection_words, collection_fruits, collection_veggies, collection_cheeses
+from gibberish.generators import word_generator
+from gibberish.dictonaries import collection_words, collection_fruits, collection_veggies, collection_cheeses
 
 fruit_generator = word_generator(collection_words, collection_fruits)
 veggies_generator = word_generator(collection_words, collection_veggies)
